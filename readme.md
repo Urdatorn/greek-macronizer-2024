@@ -1,5 +1,7 @@
 # Greek Macronizer
 
+NOTE: This repo is for accompanying my master thesis from 2024, and is not for using. For a working SOTA deterministic macronizer, see [grc-macronizer](https://github.com/Urdatorn/grc-macronizer)!
+
 Much philological work on Ancient Greek texts hinges on correctly disambiguating the vowel length of the so-called dichrona vowels, α, ι and υ, a process known as macronization. Inspired by the Latin macronizer of \textcite{wingeAutomaticAnnotationLatin2015}, this thesis shows how the vowel lengths of Ancient Greek tokens can be programmatically compiled into a dictionary using digital grammars, lexica and other sources, a first step towards a macronizer for Ancient Greek. Given three hundred thousand morphologically tagged tokens from all the extant Ancient Greek tragedies, around forty-two thousand tokens containing the ambiguities in question are culled out. Vowel length data from sources including two dictionaries and an online repository of scanned verse are crawled and carefully collated, disambiguating roughly four tenths of the tragic corpus. Finally, a number of ways in which the percentage of macronized dichrona can be increased algorithmically are presented, with three of them solely ``shuffling around'' the data already contained in the sourced dictionary, and two requiring formalization of morphological rules, such as those governing prefixes and the endings of nominal forms.
 
 ## Dependencies 
