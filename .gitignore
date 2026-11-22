@@ -1,3 +1,5 @@
+.DS_Store
+
 .env
 various/
 crawl_lsj/__pycache__/
